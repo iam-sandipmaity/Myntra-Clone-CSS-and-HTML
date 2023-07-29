@@ -1,0 +1,126 @@
+header {
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    height: 11vh;
+    background-color: white;
+    color: black;
+    box-shadow: 0 8px 6px -6px #eee;
+    box-shadow: 0px 8px 8px -6px rgba(0, 0, 0, 0.5);
+}
+
+header nav div img {
+    height: 45px;
+    padding: 7px 0 0 7px;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    padding-top: 14px;
+}
+
+nav div ul {
+    list-style: none;
+}
+
+nav div ul li {
+    padding: 1vw;
+}
+
+nav div ul li a{
+    transition: left 0.2s ease-out, width 0.2s ease-out;
+}
+
+nav div ul li:hover {
+    font-weight: bolder;
+}
+
+.search {
+    box-shadow: 0px 8px 8px -6px rgba(0, 0, 0, 0.5);
+}
+
+.search input {
+    width: 24vw;
+    height: 4vh;
+    padding: 2px;
+    border-radius: 2px;
+    background-color: #f1f1f1;
+}
+
+main {
+    background-color: rgb(220, 220, 220);
+}
+
+.upper {
+    max-width: 95vw;
+    margin: auto;
+    cursor: pointer;
+}
+
+.upper img {
+    z-index: 1;
+    max-width: 90vw;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+    left: -21px;
+    box-shadow: 0px 8px 8px -6px rgba(0, 0, 0, 0.5);
+}
+
+
+.middle {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    box-shadow: rgb(157, 164, 171) 0px 20px 30px -10px;
+}
+
+.middle img {
+    /* min-width: 20vw; */
+    height: 50vh;
+    margin: 5vh 1vw;
+    box-shadow: 0px 8px 8px -6px rgba(0, 0, 0, 0.5);
+}
+
+.middle-10 {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    box-shadow: 0px 8px 8px -6px rgba(0, 0, 0, 0.5);
+}
+
+.middle-10 img {
+    min-width: 9vw;
+    height: 55vh;
+    margin: 5vh 1vw;
+    box-shadow: 0px 8px 8px -6px rgba(0, 0, 0, 0.5);
+}
+
+.lower{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.lower img {
+    min-width: 12.4vw;
+    height: 30vh;
+    margin: 5vh 1vw;
+    box-shadow: 0px 8px 8px -6px rgba(0, 0, 0, 0.5);
+}
+
+footer{
+    height: 20vh;
+    background-color: rgb(197, 206, 206);
+}
+.download{
+    padding: 5vh 30vw;
+    margin: auto;
+}
+
+.download img {
+    display: inline-flex;
+    max-width: 10vw;
+    
+}

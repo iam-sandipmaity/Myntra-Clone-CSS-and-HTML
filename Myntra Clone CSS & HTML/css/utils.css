@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 95vw;
+    padding: 0 5vw;
+}
+.flex{
+    display: flex;
+}
+.display-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.mx-2{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.img-height{
+    position: relative;
+    bottom: 10px;
+}
+.banner-text{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: 0.15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 600;
+    box-shadow: rgb(156, 161, 171) 0px 20px 30px -10px;
+}
